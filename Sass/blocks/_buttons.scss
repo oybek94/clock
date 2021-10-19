@@ -1,0 +1,33 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 8px 8px 9px 21px;
+  font-weight: bold;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 50%);
+  line-height: 28px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  background-color: $primary-color;
+  border-radius: 28px;
+
+  &::after {
+    content: "";
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    background-image: url("/img/icons/arrow-down.svg");
+    background-size: 12px 6px;
+    background-color: $secondary-lighter-color;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &:hover::after {
+    background-color: #999999;
+  }
+}

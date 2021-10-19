@@ -1,0 +1,11 @@
+.quote {
+  margin: 0;
+  max-width: 540px;
+}
+
+.quote-text {
+  margin: 0;
+  margin-bottom: 13px;
+  @include h5;
+  font-weight: normal;
+}

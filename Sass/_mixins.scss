@@ -1,0 +1,55 @@
+@mixin h1 {
+  font-weight: bold;
+  font-size: 200px;
+  line-height: 200px;
+  letter-spacing: -5px;
+  color: $primary-color;
+}
+
+@mixin h2 {
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 68px;
+  color: $secondary-lighter-color;
+}
+
+@mixin h3 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: $secondary-color;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+}
+
+@mixin h4 {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: $secondary-color;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+@mixin h5 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: $secondary-color;
+}
+
+@mixin h6 {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 28px;
+  color: $secondary-lighter-color;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+@mixin text {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+}
