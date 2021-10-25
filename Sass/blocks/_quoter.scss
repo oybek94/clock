@@ -7,5 +7,6 @@
   margin: 0;
   margin-bottom: 13px;
   @include h5;
-  font-weight: normal;
+  font-weight: 400;
+  color: $primary-color;
 }
